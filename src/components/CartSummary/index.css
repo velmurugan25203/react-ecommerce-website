@@ -1,0 +1,54 @@
+/* Write your CSS here */
+
+.cart-summary-bg {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cart-summary-container {
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.amount-heading {
+  font-size: 1.2rem;
+}
+
+.order-heading {
+  color: #616e7c;
+}
+
+.order-length {
+  color: #616e7c;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.checkout-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+}
+
+@media screen and (max-width: 767px) {
+  .cart-summary-container {
+    width: 100%;
+  }
+  .order-container {
+    width: 90vw;
+    align-self: flex-end;
+  }
+  .order-length {
+    font-size: 0.8rem;
+    text-align: right;
+  }
+  .amount-heading {
+    font-size: 1rem;
+    text-align: right;
+  }
+}
